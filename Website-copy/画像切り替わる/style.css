@@ -1,0 +1,45 @@
+.box{
+  position: relative;
+  max-width: 400px;
+  height: 250px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.box .bgImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  animation: bgAnime 20s infinite;
+  background-repeat: no-repeat;
+}
+
+.box .src1 {
+  background-image: url(image/ダウンロード\ \(1\).jpg);
+}
+
+.box .src2 {
+  background-image: url(image/ダウンロード\ \(2\).jpg);
+  animation-delay: 5s;
+}
+
+.box .src3 {
+  background-image: url(image/ダウンロード\ \(3\).jpg);
+  animation-delay: 10s;
+}
+
+.box .src4 {
+  background-image: url(image/ダウンロード\ \(4\).jpg);
+  animation-delay: 15s;
+}
+
+@keyframes bgAnime {
+  0% {opacity: 0; }
+  5% {opacity: 1; }
+  25% {opacity: 1; }
+  30% {opacity: 0; }
+  100% {opacity: 0; }
+}

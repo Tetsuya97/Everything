@@ -1,0 +1,122 @@
+/* CSSã®ãƒªã‚»ãƒƒãƒˆï¼ˆæ¶ˆã•ãªã„ã§ãã ã•ã„ï¼‰ */
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+input,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+/* ã“ã“ã‹ã‚‰CSSã‚’è¨˜è¿°ã—ã¦ãã ã•ã„ */
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+  list-style: none;
+}
+
+.main {
+  padding: 100px 80px;
+}
+
+h1 {
+  font-size: 140px;
+}
+
+span {
+  color: #ff4a4a;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+.contents {
+  padding-top: 100px;
+}
+
+.contents-item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+h3 {
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid #dee7ec;
+}
+
+.contents-item p {
+  font-size: 24px;
+  padding-top: 30px;
+}
+
+.contact {
+  padding-top: 100px;
+}
+
+input,textarea {
+  width: 400px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: 1px solid #dee7ec;
+  font-size: 18px;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
+.footer {
+  height: 120px;
+  background-color: #2f5167;
+  color: #fff;
+  padding: 40px;
+}
+
+.footer-logo {
+  font-size: 32px;
+  float: left;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}

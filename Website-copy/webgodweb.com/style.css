@@ -1,0 +1,375 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  color: #54514c;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  z-index: 100;
+}
+
+header nav {
+  display: none;
+}
+
+header .logo {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  top: 17px;
+  width: 200px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+header .logo img {
+  position: absolute;
+  width: 200px;
+}
+
+#key_visual {
+  padding-top: 60px;
+  width: 100%;
+}
+
+#key_visual img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+main {
+  width: 100%;
+}
+
+#information ul li {
+  padding: 5px 10px;
+}
+
+#information ul li:nth-of-type(2n) {
+  background-color: #f5f3f0;
+}
+
+
+#information ul li time {
+  display: inline-block;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+#information ul li p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#information ul li p::before {
+  content: "▶︎";
+  margin-right: 5px;
+  font-size: 12px;
+  vertical-align: top;
+}
+
+main h2 {
+  background-color: #B99566;
+  height: 40px;
+  padding-left: 15px;
+  line-height: 40px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#gourmet article figure img {
+  width: 100%;
+}
+
+.container {
+  padding: 0 10px;
+}
+
+figure {
+  margin: 0 0 10px;
+}
+
+main h3 {
+  margin: 0 0 7px;
+}
+
+.box_title {
+  margin: 0 0 10px;
+  padding: 5px 0 5px 10px;
+  border-left: 4px solid #402805;
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+article ul li {
+  display: inline-block;
+  background-color: #B99566;
+  color: #ffffff;
+  font-size: 10px;
+  height: 10px;
+  line-height: 10px;
+  padding: 5px 10px;
+  margin: 0 5px 0 0;
+  border-radius: 4px;
+}
+
+article p {
+  font-size: 14px;
+}
+
+article p::before {
+  content: "-";
+  padding: 0 10px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+}
+
+footer .logo img {
+  width: 160px;
+  margin: 15px 0 10px;
+}
+
+footer p small {
+  font-size: 10px;
+  height: 30px;
+  line-height: 30px;
+}
+
+footer ul {
+  background-color: #54514C;
+  padding: 20px 0;
+}
+
+footer ul li {
+  width: 280px;
+  height: 30px;
+  line-height: 30px;
+  margin: 10px auto;
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+}
+
+footer ul li:hover {
+  background-color: #fff;
+}
+
+footer ul li a:hover {
+  color: #54514c;
+  transition: .3s;
+}
+
+@media (min-width:768px) {
+  header {
+    height: 80px;
+  }
+
+  header .logo {
+    top: 24px;
+    left: 25px;
+  }
+
+  header .logo img {
+    width: 250px;
+  }
+
+  #key_visual {
+    margin: 0 auto 30px;
+  }
+
+  #key_visual img {
+    max-width: 1500px;
+  }
+
+  header nav {
+    top: 22px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+  }
+
+  header ul li {
+    height: 35px;
+    line-height: 35px;
+    border-radius: 2px;
+    display: inline-block;
+  }
+
+  header ul li:hover {
+    background-color: #B99566;
+  }
+
+  header ul li a:hover {
+    color: #fff;
+    transition: .3s
+  }
+
+  header ul li a {
+    display: block;
+    color: #9c9b98;
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  main {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  #information ul {
+    list-style: none;
+  }
+
+  #information ul li time {
+    font-size: 14px;
+  }
+
+  #information ul li p {
+    display: inline-block;
+  }
+
+  #information ul li p::before {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  main .container {
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #gourmet article {
+    width: calc(50% - 5px);
+  }
+
+  footer ul li {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    margin: 0 10px;
+  }
+}
